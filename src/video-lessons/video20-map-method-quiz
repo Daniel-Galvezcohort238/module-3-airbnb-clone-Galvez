@@ -1,0 +1,20 @@
+1. What does the `.map()` array method do?
+
+It replaces each item in an array with the value returned from a function. INCORRECT
+
+Returns a new array. Whatever gets returned from the callback
+function provided is placed at the same index in the new array.
+Usually we take the items from the original array and modify them
+in some way.
+
+
+2. What do we usually use `.map()` for in React?
+
+We usually use .map to move data into elements and props
+
+
+3. Why is using `.map()` better than just creating the components
+   manually by typing them out?
+
+   It makes it more reusable and automatic, since real life websites dont have people hard-coding data into elements everytime they need to add something to the website.
+
